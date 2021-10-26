@@ -2,6 +2,17 @@ body {
   font-size: 12pt;
   font-family: Calibri;
   padding: 10px;
+  position: relative;
+  min-height: 100vh;
+}
+#container {
+  padding-bottom: 2.5rem;
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
 }
 table {
   border: 1px solid black;

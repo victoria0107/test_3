@@ -4,10 +4,42 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Export HTML Table to Excel using JavaScript by CodexWorld</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./jabascript.js"></script>
   </head>
   <body>
-    <h2>hi</h2>
-    <h3>hihi</h3>
+    <div class="container">
+      <table id="tblData">
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Country</th>
+        </tr>
+        <tr>
+          <th>mingjju</th>
+          <th>alswn4325@khanict.com</th>
+          <th>Korea</th>
+        </tr>
+        <tr>
+          <th>minju</th>
+          <th>alswn4425@khanict.com</th>
+          <th>USA</th>
+        </tr>
+        <tr>
+          <th>minjums</th>
+          <th>alswn4325@khanict.com</th>
+          <th>Japan</th>
+        </tr>
+        <tr>
+          <th>mingejums</th>
+          <th>alswn4325@khanict.com</th>
+          <th>Dutch</th>
+        </tr>
+      </table>
+      <button onclick="exportTableToExcel('tblData', 'members-data');">
+        Export HTML Table To Excel File
+      </button>
+    </div>
   </body>
 </html>
